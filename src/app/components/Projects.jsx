@@ -6,7 +6,7 @@ const Projects = () => {
         <div class="mb-10">
             <h1 className=' font-semibold text-5xl text-center'> Featured Projects </h1>
         </div>
-        <div class="flex">
+        <div className="flex mb-5 my-auto">
            
             <div class="contents">
                 <h3> Project Title </h3>
@@ -20,9 +20,9 @@ const Projects = () => {
                 <img alt="mountains" src="logo.png" />
             </div>
         </div>
-        <div class="flex">
+        <div className="flex mx-5 my-auto">
             <div class="images-left">
-            <img alt="mountains" src="logo.png" />
+            <img alt="mountains" className=' rounded' src="logo.png" />
             </div>
             <div class="contents-right">
                 <h3> Project Title </h3>

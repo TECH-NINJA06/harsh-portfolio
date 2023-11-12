@@ -1,7 +1,8 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from './components/Header'
+import { Suspense } from 'react'
 import Footer from './components/Footer'
+import loading from './loading'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Header />
-      <body className={inter.className}>{children}
-      <Footer />
+      
+      <body >
+        <Suspense fallback={<loading />}>{children}</Suspense>
+        <Footer />
       </body>
     </html>
   )
