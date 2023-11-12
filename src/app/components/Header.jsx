@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className='flex justify-around items-center h-20 text-slate-200 sticky'>
+    <nav className='flex justify-around items-center h-20 text-slate-200 sticky '>
         <div className="px-2 text-2xl">
             <h1>Harsh Telang</h1>
         </div>

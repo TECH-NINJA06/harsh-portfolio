@@ -1,21 +1,22 @@
 'use client';
 
 import Image from 'next/image'
+import Header from './components/Header';
 import HomeSection from './components/HomeSection'
-import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills';
-import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 export default function Home() {
   return (
     <>
     <Header />
-    <HomeSection/>
+    <HomeSection />
     <About />
     <Skills />
+    <Projects />
     <h1>Hello World</h1>
-    <Footer />
+    
     </>
   )
 }
