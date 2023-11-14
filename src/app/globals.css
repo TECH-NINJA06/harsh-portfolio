@@ -51,3 +51,11 @@ nav {
   width: 0;
   z-index: -1;
 }
+
+.zoom-skills:hover {
+   transform: scale(1.2); 
+}
+
+.zoom-skills {
+   transition: .2s; 
+}

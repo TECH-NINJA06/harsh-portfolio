@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div id='about'className='py-40 home'>
+    <div id='about'className='py-40'>
        <div className='flex '>
         <div className='basis-1/3'>
           <Image
