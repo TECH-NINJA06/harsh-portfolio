@@ -10,7 +10,7 @@ const About = () => {
             className='m-12 rounded-full'
             width={300}
             height={300}
-            src="/abt.jpg"
+            src="/assets/abt.jpg"
           />
         </div>
         <div className='basis-2/4'>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Projects = () => {
   return (
-    <div id='Projects' className=''>
+    <div id='Projects' className='py-10'>
         <div class="mb-10">
             <h1 className=' font-semibold text-5xl text-center'> Featured Projects </h1>
         </div>
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
             </div>
             <div class="mr-5 pl-10">
-                <img className=' rounded-md' alt="Senior Sphere" src="project1.jpg" />
+                <img className=' rounded-md' alt="Senior Sphere" src="/assets/project1.jpg" />
             </div>
         </div>
         <div className="flex mx-5 my-auto">

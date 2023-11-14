@@ -49,7 +49,7 @@ const HomeSection = () => {
             className='m-12 bg-none radius-inherit'
             width={288}
             height={264}
-            src="/logo-portfolio.gif" />
+            src="/assets/logo-portfolio.gif" />
         </div>
     </div>
   )

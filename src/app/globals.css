@@ -28,9 +28,9 @@ nav {
   border-radius: inherit;
 }
 
-/*.zoom {
+.zoom {
   transition-duration: 0.5s;
-}*/
+}
 
 .navbar-nav ul li a {
   font-weight: 400;
