@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 5%, rgb(2, 2, 63) 100%);
@@ -22,6 +28,26 @@ nav {
   border-radius: inherit;
 }
 
-.zoom {
+/*.zoom {
   transition-duration: 0.5s;
+}*/
+
+.navbar-nav ul li a {
+  font-weight: 400;
+  position: relative;
+  transition: all .3s ease-out 0s;
+  z-index: 1;
+}
+.navbar-nav ul li a:after {
+  background: #c95bf5;
+  border-radius: 16px;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: relative;
+  transition: all .3s ease-out 0s;
+  width: 0;
+  z-index: -1;
 }
