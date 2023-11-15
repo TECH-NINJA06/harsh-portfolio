@@ -17,7 +17,7 @@ const Projects = () => {
                     <li className='ml-5'>Tailwind CSS</li>
                     <li className='ml-5'>Javascript</li>
                 </ul>
-                <p className='pr-40 mt-5 text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className='pr-40 mt-5 text-center'>A hackathon project created using Next js Mongo Db and Django designed to provide the elderly people social interaction with their peers as well as with some Emergency as well as necessary health care facilities.</p>
                 <div className='flex ml-60 mt-5'>
                     <Link href='#' className='mr-5 hover:text-blue-300'>Check it out</Link>
                     <Link className='mr-5 hover:text-blue-300' href='https://github.com/Rushikesh-24/SeniorSphere'>View on Github</Link>
