@@ -14,8 +14,6 @@ export default function Home() {
     <About />
     <Skills />
     <Projects />
-    <h1>Hello World</h1>
-    
     </>
   )
 }

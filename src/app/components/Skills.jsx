@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Skills = () => {
   return (
-    <div className='my-10'>
+    <div id='Skills' className='my-10'>
       <div>
             <h1 className='font-bold text-4xl my-5 text-center'> Professional Skills</h1>
       </div>

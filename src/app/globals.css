@@ -59,3 +59,8 @@ nav {
 .zoom-skills {
    transition: .2s; 
 }
+
+.contact-socials i {
+  font-size: 25px;
+  color: rgb(60, 51, 158);
+}
