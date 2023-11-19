@@ -4,12 +4,12 @@ import Link from 'next/link';
 const Projects = () => {
   return (
     <div id='Projects' className='py-10'>
-        <div class="mb-10">
+        <div className="mb-10">
             <h1 className=' font-semibold text-5xl text-center'> Featured Projects </h1>
         </div>
         <div className="flex justify-between mb-5 my-auto">
            
-            <div class="pr-10 ml-5">
+            <div className="pr-10 ml-5">
                 <h3 className=' text-center text-xl font-medium'> Senior Sphere </h3>
                 <ul className='flex text-blue-400 list-none align-middle ml-52'>
                     <li className='ml-5'>React js</li>
@@ -23,7 +23,7 @@ const Projects = () => {
                     <Link className='mr-5 hover:text-blue-300' href='https://github.com/Rushikesh-24/SeniorSphere'>View on Github</Link>
                 </div>
             </div>
-            <div class="mr-5 pl-10">
+            <div className="mr-5 pl-10">
                 <img className=' rounded-md' alt="Senior Sphere" src="/assets/project1.jpg" />
             </div>
         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
             <div class="mr-5 pl-10 mt-5">
                 <img className=' rounded-md' alt="Senior Sphere" src="/assets/project1.jpg" />
             </div>
-            <div class="pr-10 ml-5 mt-5">
+            <div className="pr-10 ml-5 mt-5">
                 <h3 className=' text-center text-xl font-medium'> Senior Sphere </h3>
                 <ul className='flex text-blue-400 list-none align-middle ml-52'>
                     <li className='ml-5'>React js</li>
@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
         <div className="flex justify-between mb-5 my-auto">
            
-            <div class="pr-10 ml-5 mt-5">
+            <div className="pr-10 ml-5 mt-5">
                 <h3 className=' text-center text-xl font-medium'> Senior Sphere </h3>
                 <ul className='flex text-blue-400 list-none align-middle ml-52'>
                     <li className='ml-5'>React js</li>
@@ -62,7 +62,7 @@ const Projects = () => {
                     <Link className='mr-5 hover:text-blue-300' href='https://github.com/Rushikesh-24/SeniorSphere'>View on Github</Link>
                 </div>
             </div>
-            <div class="mr-5 pl-10 mt-5">
+            <div className="mr-5 pl-10 mt-5">
                 <img className=' rounded-md' alt="Senior Sphere" src="/assets/project1.jpg" />
             </div>
         </div>
