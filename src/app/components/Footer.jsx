@@ -35,10 +35,10 @@ const Footer = () => {
   </div>*/}
              <div className="flex justify-evenly md-5 mt-14 mr-60">
                 {/* <a href="https://www.instagram.com/mr__unknown_xx/"><i className="fa-brands fa-instagram text-3xl zoom-skills"></i></a> */}
-                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.instagram.com/mr__unknown_xx/"><FaInstagram /></a></IconContext.Provider>
-                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.linkedin.com/in/harsh-telang-226a70265/"><FaLinkedin /></a></IconContext.Provider>
-                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://github.com/Harsh-Telang"><FaGithub /></a></IconContext.Provider>
-                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.instagram.com/mr__unknown_xx/"><FaDiscord /></a></IconContext.Provider>
+                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.instagram.com/mr__unknown_xx/"><FaInstagram className="text-3xl zoom-skills"/></a></IconContext.Provider>
+                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.linkedin.com/in/harsh-telang-226a70265/"><FaLinkedin className="text-3xl zoom-skills" /></a></IconContext.Provider>
+                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://github.com/Harsh-Telang"><FaGithub className="text-3xl zoom-skills" /></a></IconContext.Provider>
+                <IconContext.Provider value={{ className: "text-3xl zoom-skills" }}><a href="https://www.instagram.com/mr__unknown_xx/"><FaDiscord className="text-3xl zoom-skills" /></a></IconContext.Provider>
                 {/* <a href="https://www.linkedin.com/in/harsh-telang-226a70265/"><i className="fa-brands fa-linkedin text-3xl zoom-skills"></i></a> */}
                 {/* <a href="https://github.com/Harsh-Telang"><i className="fa-brands fa-github text-3xl zoom-skills"></i></a> */}
                 {/* <a href=""><i className="fa-brands fa-discord text-3xl zoom-skills"></i></a> */}
