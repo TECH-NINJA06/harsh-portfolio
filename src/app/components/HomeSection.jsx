@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 const HomeSection = () => {
   return (
     <div className='flex justify-around text-white items-center mx-20'>
-       {/*} <div className="text-5xl pr-80 text-center">
+       {/* <div className="text-5xl pr-80 text-center">
           <div className='font-medium my-17'>
             Hey, I am <span>Harsh Telang</span>
           </div>
@@ -15,7 +15,7 @@ const HomeSection = () => {
           </div>
   </div>*/}
         <div className="col-span-7 place-self-center text-center sm:text-left my-10">
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <h1 className="text-white mb-4 text-5xl sm:text-3xl font-extrabold">
                         <span className=" bg-clip-text br-gradient-to-r from-purple-400 to-pink-600">Hello, I am </span>
                         <br />
                         <TypeAnimation
@@ -32,7 +32,7 @@ const HomeSection = () => {
                             ]}
                             wrapper="span"
                             speed={35}
-                            style={{ fontSize: '2em', display: 'inline-block' }}
+                            style={{ fontSize: '2rem', display: 'inline-block' }}
                             repeat={Infinity}
                         />
                     </h1>

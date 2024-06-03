@@ -1,7 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import { useState } from 'react';
+import { motion, AnimatePresence } from "framer-motion"
 
 const Projects = () => {
+
+    const items = [
+        {
+            id: 1,
+        subtitle: 'hi',
+        title: 'hola',
+        }
+    ]
+
+    const [selectedId, setSelectedId] = useState(null)
+ 
   return (
     <div id='Projects' className='py-10'>
         <div className="mb-10">
@@ -66,6 +79,22 @@ const Projects = () => {
                 <img className=' rounded-md' alt="Senior Sphere" src="/assets/project1.jpg" />
             </div>
         </div>
+ {/* {items.map(item => (
+   <motion.div layoutId={item.id} onClick={() => setSelectedId(item.id)}>
+     <motion.h5>{item.subtitle}</motion.h5>
+     <motion.h2>{item.title}</motion.h2>
+   </motion.div>
+ ))}
+ 
+ <AnimatePresence>
+   {selectedId && (
+     <motion.div layoutId={selectedId}>
+       <motion.h5>{items.subtitle}</motion.h5>
+       <motion.h2>{items.title}</motion.h2>
+       <motion.button onClick={() => setSelectedId(null)} />
+     </motion.div>
+   )}
+ </AnimatePresence> */}
     </div>
   )
 }
